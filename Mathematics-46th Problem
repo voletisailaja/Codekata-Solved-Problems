@@ -1,0 +1,10 @@
+ var a=userInput[0].split(" ");
+var n=parseInt(a[0]);
+var m=parseInt(a[1]);
+var product=n*m;
+if(product%Math.sqrt(product)===0){
+    console.log("yes");
+}
+else{
+    console.log("no");
+}
