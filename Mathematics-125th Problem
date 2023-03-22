@@ -1,0 +1,8 @@
+var str=userInput[0];
+ 
+if(str%4===0){
+    console.log("YES");
+}
+else{
+    console.log("NO");
+}
