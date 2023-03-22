@@ -1,0 +1,10 @@
+ var a=userInput[0].split(" ").map(Number);
+
+var c=a[0];
+var d=a[1];
+var e=a[2];
+var sa=2*((c*d)+(d*e)+(e*c));
+var v=c*d*e;
+var res=sa+" "+v;
+console.log(res);
+ 
