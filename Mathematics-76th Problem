@@ -1,0 +1,5 @@
+var a=userInput[0];
+  const hexToDecimal = hex => parseInt(hex, 16);
+
+const dec1 = hexToDecimal(a);
+console.log(dec1);
