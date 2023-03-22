@@ -1,0 +1,11 @@
+var n=userInput[0];
+  const count = n => String((Math.abs(n))).length;
+  
+  if(count===2){
+  console.log("Unsaturated");
+  }
+  else{
+  console.log("Saturated");
+  }
+  
+
