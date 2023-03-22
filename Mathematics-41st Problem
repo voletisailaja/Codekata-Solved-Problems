@@ -1,0 +1,2 @@
+var num=userInput[0];
+console.log(Math.ceil(num));
