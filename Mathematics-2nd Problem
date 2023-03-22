@@ -1,0 +1,6 @@
+ var a=userInput[0].split(" ").map(Number);
+var b=parseInt(a[0]);
+var c=parseInt(a[1]);
+var d=parseInt(a[2]);
+var e=(b*c)%d;
+console.log(e);
