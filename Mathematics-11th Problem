@@ -1,0 +1,11 @@
+ var a=userInput[0];
+ var count=0;
+ count=parseInt(a[0]+a[1]);
+ if(count%3===0){
+ console.log("yes");
+  }
+  else
+  console.log("not");
+  
+
+  
