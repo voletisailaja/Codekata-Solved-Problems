@@ -1,0 +1,11 @@
+var a=userInput[0].split(" ").map(Number);
+var b=a.join("");
+var c=b[0];
+var d=b[1];
+var diff=c-d;
+if(diff%2===0){
+    console.log("even");
+}
+else{
+    console.log("odd");
+}
